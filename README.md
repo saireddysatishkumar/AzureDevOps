@@ -12,7 +12,8 @@
   
   dotnet ./bin/Debug/net7.0/HelloWorldApp.Web.dll
 
-### Note: By default, the web service should bind to the address http://127.0.0.1:5000. But it may fail in mac if the address is already in use. Alternatively, use below command
+### Note: By default, the web service should bind to the address http://127.0.0.1:5000. 
+But it may fail in mac if the address is already in use. Alternatively, use below command
 
 dotnet ./bin/Debug/net7.0/HelloWorldApp.Web.dll --urls http://127.0.0.1:8089
 
