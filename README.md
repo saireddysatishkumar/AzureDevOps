@@ -15,6 +15,7 @@ dotnet ./bin/Debug/net7.0/HelloWorldApp.Web.dll --urls http://127.0.0.1:8089
 ### Step: Create Azure DevOps Project
 # Go to ADO > Repos > add ssh-key
 ### Step: Push HelloWorldApp webapp code to ADO Repos.
+```
 # From project location
 cd HelloWorldApp
 git init
@@ -22,7 +23,7 @@ git add .
 git commit -m "initial commit" 
 git log
 
-git remote add origin git@ssh.dev.azure.com:v3/saireddydevops11/helloworld/helloworld
+git remote add origin git@ssh.dev.azure.com:v3/<azureRepo>/helloworld
 git push -u origin --all
-
+```
 
